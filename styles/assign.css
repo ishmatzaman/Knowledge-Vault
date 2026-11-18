@@ -26,6 +26,11 @@
   color: #FFFFFF;
 }
 
+.section-heading {
+  font-size: 48px;
+  color: #001931;
+}
+
 /* main style */
 nav {
   width: 85%;
@@ -79,4 +84,45 @@ nav .menu a {
   line-height: 24px;
   margin-top: 16px;
   margin-bottom: 32px;
+}
+
+#note {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#note .note-container {
+  padding-top: 80px;
+}
+
+#note .note-container p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+}
+
+#note .note-container .note-box {
+  display: flex;
+  gap: 24px;
+justify-content: center;
+margin-top: 44px;
+}
+
+.note-box .note-card {
+  max-width: 322px;
+  align-items: center;
+  box-shadow: 0 0 8px 0 #00000031;
+  gap: 24px;
+  padding-top: 69px;
+  padding-bottom: 69px;
+  border-radius: 8px;
+}
+.note-card img{
+  background-color: #F95555;
+  width: 32px;
+}
+.note-card h3{
+  font-size: 24px;
+  color: #001931;
+  padding-bottom: 16px;
 }
